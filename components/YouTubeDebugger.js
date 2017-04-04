@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class YouTubeDebugger extends React.Component {
+export default class YouTubeDebugger extends React.Component {
   constructor() {
     super();
 
@@ -46,5 +46,3 @@ class YouTubeDebugger extends React.Component {
     );
   }
 }
-
-module.exports = YouTubeDebugger;
