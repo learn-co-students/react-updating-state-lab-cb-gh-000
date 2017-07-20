@@ -14,8 +14,11 @@ export default class YouTubeDebugger extends React.Component{
         }
       }
     }
+    //Setup Functions
+    this.changeBitrateTo12 = this.changeBitrateTo12.bind(this)
+    this.changeVideoResolutionTo720p = this.changeVideoResolutionTo720p.bind(this)
   }
-  changeBitrateTo12 = () => {
+  changeBitrateTo12(){
     this.setState({
       settings: {
         ...this.state.settings,
@@ -23,7 +26,7 @@ export default class YouTubeDebugger extends React.Component{
       },
     })
   }
-  changeVideoResolutionTo720p = () => {
+  changeVideoResolutionTo720p(){
     this.setState({
       settings: {
         ...this.state.settings,
