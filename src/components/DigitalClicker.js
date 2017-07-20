@@ -6,8 +6,9 @@ export default class DigitalClicker extends React.Component{
     this.state = {
       timesClicked: 0
     }
+    this.theButtonIsClicked = this.theButtonIsClicked.bind(this)
   }
-  theButtonIsClicked = () => {
+  theButtonIsClicked() {
     this.setState(prevState => {
       return { timesClicked: ++prevState.timesClicked }
     })
