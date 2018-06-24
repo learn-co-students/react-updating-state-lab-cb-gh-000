@@ -1,6 +1,6 @@
 # React Updating State Lab
 
-## Overview
+## Oveirview
 In this lab, you'll update state using `setState()`.
 
 ## World record click counter
