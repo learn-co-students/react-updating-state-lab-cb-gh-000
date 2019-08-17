@@ -3,7 +3,10 @@ import React from "react"
 
 export default class YouTubeDebugger extends React.Component {
   constructor () {
+<<<<<<< HEAD
     super() 
+=======
+>>>>>>> 4bdeaf5365886285d64a6ba013bd4ef16769e9b9
 
     this.state = {
       errors: [],
@@ -42,4 +45,7 @@ export default class YouTubeDebugger extends React.Component {
       </div>
     )
   }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 4bdeaf5365886285d64a6ba013bd4ef16769e9b9
